@@ -10,13 +10,13 @@ namespace AddUtterances
     class Program
     {
         // NOTE: Replace this example LUIS application ID with the ID of your LUIS application.
-        static string appID = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx";
+        static string appID = "95344024-8f05-4096-8387-5344801f7388";
 
         // NOTE: Replace this example LUIS application version number with the version number of your LUIS application.
         static string appVersion = "0.1";
 
         // NOTE: Replace this example LUIS authoring key with a valid key.
-        static string authoringKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+        static string authoringKey = "bcfaf156c410493483323acf3c79469c";
 
         static string host = "https://westus.api.cognitive.microsoft.com";
         static string path = "/luis/api/v2.0/apps/" + appID + "/versions/" + appVersion + "/";

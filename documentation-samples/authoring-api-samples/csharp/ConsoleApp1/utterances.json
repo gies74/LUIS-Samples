@@ -1,10 +1,10 @@
 ﻿[
   {
-    "text": "go to Seattle",
-    "intentName": "BookFlight",
+    "text": "jordens richting bilderdijk aangesproken",
+    "intentName": "VerklikkerAangesproken",
     "entityLabels": [
       {
-        "entityName": "Location::LocationTo",
+        "entityName": "BookFlight",
         "startCharIndex": 6,
         "endCharIndex": 12
       }

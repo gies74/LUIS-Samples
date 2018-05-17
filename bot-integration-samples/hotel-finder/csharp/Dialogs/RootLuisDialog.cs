@@ -11,10 +11,15 @@
     using Microsoft.Bot.Builder.Luis.Models;
     using Microsoft.Bot.Connector;
 
-    [LuisModel("YourModelId", "YourSubscriptionKey")]
+    [LuisModel("95344024-8f05-4096-8387-5344801f7388", "bcfaf156c410493483323acf3c79469c")]
     [Serializable]
     public class RootLuisDialog : LuisDialog<object>
     {
+        public RootLuisDialog()
+        {
+            int i = 1;
+        }
+
         private const string EntityGeographyCity = "builtin.geography.city";
 
         private const string EntityHotelName = "Hotel";
